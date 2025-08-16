@@ -1,0 +1,52 @@
+.profile{
+    width: 100%;
+    top:0;
+    position:relative;
+    
+    
+}
+.content{
+    width:100%;
+    object-fit:cover;
+    height: 100px;
+    padding:0;
+    border-radius:14px 14px 0 0;
+    
+}
+.user{
+    position:absolute;
+    height:100px;
+    width:100px;
+    bottom :-40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:50%;
+    object-fit:cover;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    width: 300px;
+    border: 1px solid rgb(227, 212, 212);
+    border-radius:14px;
+    padding: 0px;
+    margin :0px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.info{
+    text-align:center;
+    padding-top:40px ;
+}
+.footer{
+    padding:5px 10px;
+    bottom:5px;
+    margin:5px 10px;
+    font-size:13px;
+    color: rgb(16, 15, 15);
+}
+p{
+    color:rgb(123, 122, 122)
+}
+hr {
+    border-color: #f5f3f3;
+    margin: 10px 20px;
+}
